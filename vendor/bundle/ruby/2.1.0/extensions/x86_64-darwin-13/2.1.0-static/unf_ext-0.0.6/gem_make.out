@@ -1,0 +1,14 @@
+/Users/ib/.rbenv/versions/2.1.1/bin/ruby extconf.rb 
+checking for main() in -lstdc++... yes
+checking for ruby/encoding.h... yes
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling unf.cc
+linking shared-object unf_ext.bundle
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 unf_ext.bundle ./.gem.20141030-36165-7wtimv
+installing default unf_ext libraries

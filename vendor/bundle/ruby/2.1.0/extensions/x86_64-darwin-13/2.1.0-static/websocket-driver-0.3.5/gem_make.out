@@ -1,0 +1,12 @@
+/Users/ib/.rbenv/versions/2.1.1/bin/ruby extconf.rb 
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20141103-1731-6xtw5p
+installing default websocket_mask libraries
